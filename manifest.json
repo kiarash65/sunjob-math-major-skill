@@ -5,6 +5,21 @@
   "audience": "Iranian mathematics-track students",
   "brand": "SUNJOB Academy",
   "website": "https://sunjob.ir",
+  "homepage": "https://github.com/kiarash65/sunjob-math-major-skill",
+  "repository": "https://github.com/kiarash65/sunjob-math-major-skill",
   "telegram": "https://t.me/sunjob1",
-  "entrypoint": "SKILL.md"
+  "license": "MIT",
+  "entrypoint": "SKILL.md",
+  "chatgpt_edition": "chatgpt/CHATGPT-MASTER-PROMPT.txt",
+  "keywords": [
+    "انتخاب رشته",
+    "انتخاب رشته ریاضی",
+    "کنکور ریاضی",
+    "هوش مصنوعی",
+    "هدایت تحصیلی",
+    "career guidance",
+    "major selection",
+    "Claude",
+    "ChatGPT"
+  ]
 }

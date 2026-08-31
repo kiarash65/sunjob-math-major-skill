@@ -1,28 +1,27 @@
 # 🎓 SUNJOB Math Major Skill v3.2
 
-<!-- shields -->
 <p align="center">
   <img src="https://img.shields.io/badge/Language-Farsi%20(Persian)-blue?style=flat-square" alt="Persian" />
-  <img src="https://img.shields.io/badge/Compatible-Claude%20%7C%20ChatGPT-green?style=flat-square" alt="Claude & ChatGPT" />
+  <img src="https://img.shields.io/badge/Claude-Skill-green?style=flat-square" alt="Claude Skill" />
+  <img src="https://img.shields.io/badge/ChatGPT-Master%20Prompt-green?style=flat-square" alt="ChatGPT Master Prompt" />
   <img src="https://img.shields.io/badge/Version-3.2-orange?style=flat-square" alt="v3.2" />
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="MIT" />
-  <img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=flat-square" alt="Production" />
 </p>
 
 <p align="center">
-  <strong>اسکیل انتخاب رشته کنکور ریاضی با هوش مصنوعی</strong><br/>
-  AI-powered structured guidance for <strong>انتخاب رشته</strong> (university major selection) in Iran's mathematics track (کنکور ریاضی)
+  <strong>اسکیل تخصصی انتخاب رشته کنکور ریاضی با هوش مصنوعی</strong><br/>
+  AI-assisted, structured guidance for university major selection and career discovery for Iranian mathematics-track students.
 </p>
 
 <p align="center">
-  <a href="https://sunjob.ir"><strong>🌐 SUNJOB Website</strong></a> ·
+  <a href="https://sunjob.ir"><strong>🌐 SUNJOB</strong></a> ·
   <a href="https://t.me/Sunjob1"><strong>📱 Telegram</strong></a> ·
-  <a href="https://sunjob.ir/test/holland"><strong>🧪 Holland Test</strong></a>
+  <a href="https://github.com/kiarash65/sunjob-math-major-skill/archive/refs/heads/main.zip"><strong>⬇️ Download ZIP</strong></a>
 </p>
 
 ---
 
-## 🇮🇷 فارسی — اسکیل تخصصی انتخاب رشته کنکور ریاضی
+## 🇮🇷 درباره این Skill
 
 انتخاب رشته یکی از مهم‌ترین تصمیم‌های مسیر تحصیلی و شغلیه؛ اما خیلی وقت‌ها این تصمیم فقط بر اساس یک عدد گرفته می‌شه: **رتبه کنکور.**
 
@@ -40,52 +39,110 @@
 
 ---
 
-### Skill دقیقاً چیه؟
+## Skill دقیقاً چیه؟
 
-به زبان ساده، Skill یک **دستورالعمل و چارچوب آماده برای هوش مصنوعی** (Claude, ChatGPT و سایر ابزارها) هست که بهش کمک می‌کنه کار انتخاب رشته رو منظم‌تر، عمیق‌تر و با روش مشخصی انجام بده.
+به زبان ساده، Skill یک **دستورالعمل و چارچوب آماده برای هوش مصنوعی**ه که بهش کمک می‌کنه یک مسئله مشخص رو منظم‌تر، عمیق‌تر و با روش مشخصی بررسی کنه.
 
-SUNJOB Math Major Skill v3.2 همین ایده رو برای **انتخاب رشته گروه ریاضی** به کار می‌گیره.
+SUNJOB Math Major Skill v3.2 همین ایده رو برای **انتخاب رشته گروه ریاضی** به کار می‌گیره و به جای یک سؤال ساده، یک فرآیند چندمرحله‌ای برای شناخت فرد، بررسی گزینه‌ها و تصمیم‌گیری ایجاد می‌کنه.
 
 ---
 
-### این Skill چه کمکی می‌کنه؟
+## این Skill چه کمکی می‌کنه؟
 
-| بُعد تحلیل | توضیح |
+| بُعد | چیزی که بررسی می‌شود |
 |---|---|
-| 🧠 علایق و ویژگی‌های فردی | شخصیت، سبک کار، ترجیحات |
-| 📚 توانایی‌ها و نقاط قوت | مهارت‌های تحلیلی، عملی، خلاقانه |
-| 🎯 اهداف و علایق شغلی | محیط کار، سبک زندگی، درآمد |
-| 🏙️ شهر و شرایط زندگی | مهاجرت، محدودیت‌های جغرافیایی |
-| 🎓 ویژگی‌های رشته و مسیر تحصیل | محتوای دروس، تخصص، ارشد |
-| 💼 مسیر شغلی و آینده کاری | بازار کار، کارآفرینی، ریسک |
-| ⚖️ مزایا، معایب و ریسک‌ها | مقایسه واقع‌بینانه |
-| 🧩 اطلاعاتی که کم داریم | شناسایی نقاط کور |
+| 🧠 علایق و ویژگی‌های فردی | علاقه‌ها، سبک کار و ترجیحات |
+| 📚 توانایی‌ها | نقاط قوت تحلیلی، عملی و خلاقانه |
+| 🎯 اهداف شغلی | محیط کاری، سبک زندگی، رشد و درآمد |
+| 🏙️ شرایط زندگی | شهر، جغرافیا و محدودیت‌های واقعی |
+| 🎓 خودِ رشته | محتوای تحصیل و مسیر تخصص |
+| 💼 مسیر شغلی | کار واقعی، محیط کار و مسیرهای شغلی |
+| ⚖️ معامله‌ها و ریسک‌ها | مزایا، چالش‌ها و هزینه فرصت |
+| 🧩 اطلاعات ناقص | چیزهایی که برای تصمیم هنوز باید فهمیده شوند |
 
 ---
 
-### برای کیه؟
+## ایده اصلی
 
-- 👨‍🎓 **داوطلبان کنکور ریاضی** — هر رتبه‌ای که دارن
-- 📚 **دانش‌آموزان مردد** — بین چند رشته گیر کردن
-- 🧠 **کسانی که فقط با رتبه تصمیم نمی‌گیرن** — می‌خوان عوامل بیشتری رو ببینن
-- 🤖 **کاربران هوش مصنوعی** — Claude, ChatGPT, و سایر ابزارها
+این Skill تصمیم را در چهار لایه بررسی می‌کند:
 
----
+**SELF × BIAS × CAREER × REALITY → DECISION**
 
-### چطور استفاده کنیم؟
+یعنی انتخاب رشته از ترکیب شناخت خود فرد، شناسایی سوگیری‌ها، شناخت کار واقعی و محدودیت‌های دنیای واقعی شکل می‌گیرد.
 
-1. فایل `SKILL.md` رو از این مخزن دریافت کن.
-2. فایل رو در ابزار هوش مصنوعی‌ای که پشتیبانی می‌کنه قرار بده:
-   - **Claude** → اضافه کردن به عنوان Claude Skill
-   - **ChatGPT** → استفاده از `chatgpt/CHATGPT-MASTER-PROMPT.txt`
-   - **سایر ابزارها** → System Instructions / Knowledge Files / Uploaded Files
-3. اطلاعات خودت رو به هوش مصنوعی بده.
-4. ازش بخواه با استفاده از این Skill شرایطت رو تحلیل کنه.
-5. نمونه پرامپت‌ها رو ببین: [`examples/sample-prompts.md`](examples/sample-prompts.md)
+رتبه مهم است؛ اما رتبه به‌تنهایی جواب انتخاب رشته نیست.
 
 ---
 
-### نمونه پرامپت سریع
+# ⚡ Quick Start
+
+### Claude
+
+اگر محیط Claude از Skills پشتیبانی می‌کند، پوشه Skill را به همان شکل استفاده کن و مطمئن شو `SKILL.md` در ریشه بسته قرار دارد.
+
+فایل اصلی:
+
+[`SKILL.md`](SKILL.md)
+
+### ChatGPT
+
+دو روش در این repository وجود دارد:
+
+1. اگر برای حساب یا workspace تو قابلیت Skills فعال است، بسته Skill را به‌عنوان Skill نصب/آپلود کن.
+2. برای استفاده قابل‌حمل و ساده، فایل زیر را باز کن و کل محتوای آن را در یک گفت‌وگوی جدید به‌عنوان پیام اول وارد کن:
+
+[`chatgpt/CHATGPT-MASTER-PROMPT.txt`](chatgpt/CHATGPT-MASTER-PROMPT.txt)
+
+> قابلیت Skills در ChatGPT به حساب، workspace و سطح محصول بستگی دارد. وقتی Skills در دسترس نیست، نسخه Master Prompt مسیر ساده و قابل‌حمل برای استفاده از همان منطق است.
+
+### سایر ابزارهای AI
+
+بسته به ابزار می‌توانی `SKILL.md` را به‌عنوان یکی از موارد زیر بارگذاری کنی:
+
+- Skill
+- System Instructions
+- Project Instructions
+- Knowledge File
+- Uploaded File
+
+روش دقیق نصب را با راهنمای همان ابزار تطبیق بده.
+
+---
+
+## 👨‍🎓 این Skill برای کیه؟
+
+- داوطلبان کنکور ریاضی
+- دانش‌آموزانی که بین چند رشته مردد هستن
+- کسانی که نمی‌خوان انتخاب رشته‌شون فقط بر اساس رتبه باشه
+- کسانی که می‌خوان علاقه، توانایی، شرایط و آینده شغلی رو کنار هم ببینن
+- کسانی که می‌خوان از هوش مصنوعی برای فکر کردن بهتر درباره انتخاب رشته استفاده کنن
+
+---
+
+## 🧪 تست‌ها و خودشناسی
+
+این Skill می‌تواند نتایج ارائه‌شده از تست‌های مختلف را در کنار گفت‌وگو تفسیر کند، از جمله:
+
+- Holland / RIASEC
+- Work Values
+- Career Self-Efficacy
+- MBTI
+- Big Five
+- Blind Spots
+
+نتیجه‌ی هیچ تستی به‌تنهایی حکم قطعی درباره یک رشته یا شغل نیست؛ ارزش اصلی در ترکیب چند شاهد و مقایسه آن‌ها با تجربه و ترجیحات واقعی فرد است.
+
+---
+
+## 🔎 تحقیق و داده‌های به‌روز
+
+وقتی اطلاعاتی مثل قوانین پذیرش، سهمیه، ظرفیت، رشته‌محل، رتبه‌های قبولی، بازار کار یا درآمد به سال و زمان وابسته باشند، Skill استفاده از منابع به‌روز و معتبر را در اولویت قرار می‌دهد.
+
+برای تصمیم‌های مربوط به کنکور، منابع رسمی و اولیه در اولویت هستند و داده‌های سال‌های قبل باید به‌عنوان **سابقه تاریخی** خوانده شوند، نه تضمین نتیجه سال جاری.
+
+---
+
+## 🧠 نمونه شروع
 
 ```text
 من داوطلب کنکور ریاضی هستم.
@@ -96,10 +153,12 @@ SUNJOB Math Major Skill v3.2 همین ایده رو برای **انتخاب رش
 رشته‌های مناسب‌تر برای من رو بررسی و مقایسه کن.
 
 برای هر گزینه:
-- دلیل پیشنهاد
-- مزایا و معایب
+- دلیل تناسب
+- چیزی که ممکنه باعث ناسازگاری بشه
 - مسیر شغلی
-- ریسک‌های احتمالی
+- ریسک‌ها و ابهام‌ها
+
+رو توضیح بده.
 
 اطلاعات من:
 رتبه:
@@ -107,79 +166,112 @@ SUNJOB Math Major Skill v3.2 همین ایده رو برای **انتخاب رش
 علایق:
 توانایی‌ها:
 هدف شغلی:
+اولویت‌ها و محدودیت‌ها:
 ```
+
+---
+
+## 📚 مثال‌ها و ارزیابی
+
+نمونه‌های آماده در این مسیرها قرار دارند:
+
+- [`examples/sample-prompts.md`](examples/sample-prompts.md) — promptهای آماده
+- [`examples/scenarios.md`](examples/scenarios.md) — ۱۴ سناریوی واقع‌گرایانه برای ارزیابی رفتار Skill
+- [`evaluations/evaluation-rubric.md`](evaluations/evaluation-rubric.md) — معیارهای ارزیابی
+- [`evaluations/launch-checklist.md`](evaluations/launch-checklist.md) — چک‌لیست انتشار
+- [`evaluations/RELEASE-GATE.md`](evaluations/RELEASE-GATE.md) — دروازه کیفیت قبل از release
+
+---
+
+## 📦 ساختار مخزن
+
+| مسیر | کاربرد |
+|---|---|
+| `SKILL.md` | هسته و منبع اصلی Skill |
+| `manifest.json` | metadata و نسخه |
+| `chatgpt/` | نسخه مناسب استفاده در ChatGPT |
+| `examples/` | نمونه prompt و سناریو |
+| `evaluations/` | ارزیابی و کنترل کیفیت |
+| `references/` | چارچوب تصمیم، پژوهش و تفسیر تست‌ها |
+| `scripts/validate_repository.py` | validator آفلاین ساختار و ایمنی مخزن |
+
+---
+
+## 🔐 کیفیت و امنیت
+
+این مخزن قرار نیست شامل API key، رمز عبور، اطلاعات خصوصی دانش‌آموزان یا credential باشد.
+
+قبل از نصب Skillهای عمومی، محتوای دستورالعمل‌ها و فایل‌های همراه را بررسی کن و فقط از منابعی استفاده کن که به آن‌ها اعتماد داری.
+
+راهنمای امنیت: [`SECURITY.md`](SECURITY.md)
+
+---
+
+## 🛠️ توسعه
+
+برای پیشنهاد تغییر یا مشارکت:
+
+- [`CONTRIBUTING.md`](CONTRIBUTING.md)
+- [`AUTHORING.md`](AUTHORING.md)
+- [`CHANGELOG.md`](CHANGELOG.md)
+- [`COMPATIBILITY.md`](COMPATIBILITY.md)
 
 ---
 
 ## 🇬🇧 English
 
-### What Is This?
+### What is SUNJOB Math Major Skill?
 
-A **Claude Skill / ChatGPT Prompt** that turns any LLM into a structured, multi-dimensional **university major selection advisor** for Iranian mathematics-track students (کنکور ریاضی).
+SUNJOB Math Major Skill is a Persian-first structured AI workflow for university major selection and career discovery for Iranian mathematics-track students.
 
-Instead of asking "what can I get with rank X?", this skill helps students explore:
-- **Self-discovery**: interests, work style, values, personality
-- **Career awareness**: real job paths, environments, growth potential
-- **Decision framework**: structured comparison of 3–5 plausible directions
-- **Bias detection**: prestige, family pressure, rank anxiety, social proof
+Instead of treating rank as the complete answer, it combines:
 
-### Repository Structure
+- self-discovery;
+- bias detection;
+- career reality;
+- feasibility constraints;
+- psychometric evidence;
+- structured comparison;
+- calibrated recommendation confidence;
+- current-source research when facts are time-sensitive.
 
-| File / Directory | Description |
-|---|---|
-| `SKILL.md` | Core Skill definition — the main file you add to your AI tool |
-| `manifest.json` | Skill metadata (name, version, language, entrypoint) |
-| `chatgpt/` | ChatGPT-compatible master prompt and edition notes |
-| `examples/` | 14 realistic test scenarios + ready-to-use sample prompts |
-| `evaluations/` | Evaluation rubric and launch checklist |
-| `references/` | Internal design docs (decision framework, research protocol, etc.) |
+### Canonical files
 
-### What's New in v3.2
+- `SKILL.md` — canonical Skill instructions
+- `chatgpt/CHATGPT-MASTER-PROMPT.txt` — portable ChatGPT-oriented adaptation
+- `manifest.json` — machine-readable metadata
+- `examples/` — prompts and evaluation scenarios
+- `evaluations/` — quality gates
+- `references/` — supporting methodology
 
-- **Opening discipline**: Guardrails to prevent the introduction from repeating in multi-turn conversations
-- **Multi-turn continuity**: Natural conversation flow across turns without restarting
-- **Recommendation confidence**: Explicit confidence calibration (strong / provisional / insufficient)
-- **Psychometric interpretation**: Stricter discipline treating assessments as evidence, not verdicts
-- **Minimum-variable protocol**: For rank questions, asks only variables that materially change the answer
+### Compatibility
 
-### Installation
+See [`COMPATIBILITY.md`](COMPATIBILITY.md).
 
-**Claude**: Upload the entire repository as a Claude Skill. Ensure `SKILL.md` is at the root.
+### License
 
-**ChatGPT**: Copy the content of `chatgpt/CHATGPT-MASTER-PROMPT.txt` into a new chat.
-
-**Other AI tools**: Load `SKILL.md` as System Instructions, Knowledge File, or equivalent.
-
-### Links
-
-- **SUNJOB Website**: [sunjob.ir](https://sunjob.ir)
-- **Telegram**: [@Sunjob1](https://t.me/Sunjob1)
-- **Holland Test**: [sunjob.ir/test/holland](https://sunjob.ir/test/holland)
+MIT — see [`LICENSE`](LICENSE).
 
 ---
 
-## License
+## Version
 
-MIT — see [LICENSE](LICENSE).
+**SUNJOB Math Major Skill v3.2.0**
+
+See [`CHANGELOG.md`](CHANGELOG.md) for the current release history.
 
 ---
 
-<!--
-  GitHub search indexing tags — انتخاب رشته کنکور ریاضی با هوش مصنوعی
-  مشاوره انتخاب رشته | تحلیل رشته دانشگاهی | اسکیل کلود
-  انتخاب رشته با هوش مصنوعی | konkur major selection AI
-  دانشگاه صنعتی شریف | دانشگاه تهران | دانشگاه امیرکبیر
-  مهندسی کامپیوتر | مهندسی برق | مهندسی مکانیک | ریاضی محض
-  کارشناسی ارشد | دکتری | بازار کار | مسیر شغلی
-  Holland test | MBTI | Big Five | test هالند
-  سازمان سنجش | انتخاب رشته 1404 | کنکور 1404
-  Claude skill Persian | ChatGPT prompt Persian
-  AI education Iran | university admission Iran
-  career counseling AI | major selection assistant
-  prompt engineering Persian | فارسی
--->
+## Links
+
+- 🌐 https://sunjob.ir
+- 📱 https://t.me/Sunjob1
+- 🧪 https://sunjob.ir/test/holland
+- 💻 https://github.com/kiarash65/sunjob-math-major-skill
+
+---
 
 <p align="center">
   <strong>SUNJOB Academy</strong> — کشف • تجربه • انتخاب<br/>
-  <a href="https://sunjob.ir">sunjob.ir</a> · <a href="https://t.me/Sunjob1">Telegram</a>
+  🇮🇷 تقدیم به فرزندان ایران زمین
 </p>
