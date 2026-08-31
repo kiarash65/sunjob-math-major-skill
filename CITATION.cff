@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "SUNJOB Math Major Skill v3.2"
+message: "If you use this Skill in research, educational projects, or software documentation, please cite this repository."
+type: software
+authors:
+  - family-names: "SUNJOB Academy"
+repository-code: "https://github.com/kiarash65/sunjob-math-major-skill"
+url: "https://github.com/kiarash65/sunjob-math-major-skill"
+license: MIT
+version: 3.2.0
+date-released: 2026-08-31
+keywords:
+  - AI
+  - career guidance
+  - major selection
+  - Iran
+  - mathematics track
+  - انتخاب رشته
+  - کنکور ریاضی
+  - هوش مصنوعی
