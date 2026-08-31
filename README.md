@@ -1,14 +1,28 @@
 # 🎓 SUNJOB Math Major Skill v3.2
 
-## یک Skill تخصصی برای کمک به انتخاب رشته ریاضی با هوش مصنوعی
+<!-- shields -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Farsi%20(Persian)-blue?style=flat-square" alt="Persian" />
+  <img src="https://img.shields.io/badge/Compatible-Claude%20%7C%20ChatGPT-green?style=flat-square" alt="Claude & ChatGPT" />
+  <img src="https://img.shields.io/badge/Version-3.2-orange?style=flat-square" alt="v3.2" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="MIT" />
+  <img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=flat-square" alt="Production" />
+</p>
+
+<p align="center">
+  <strong>اسکیل انتخاب رشته کنکور ریاضی با هوش مصنوعی</strong><br/>
+  AI-powered structured guidance for <strong>انتخاب رشته</strong> (university major selection) in Iran's mathematics track (کنکور ریاضی)
+</p>
+
+<p align="center">
+  <a href="https://sunjob.ir"><strong>🌐 SUNJOB Website</strong></a> ·
+  <a href="https://t.me/Sunjob1"><strong>📱 Telegram</strong></a> ·
+  <a href="https://sunjob.ir/test/holland"><strong>🧪 Holland Test</strong></a>
+</p>
 
 ---
 
-> SUNJOB Math Major Skill v3.2 — AI-powered structured guidance for university major selection in Iran's mathematics track.
->
-> **ورود / [English section below](#english)**
-
----
+## 🇮🇷 فارسی — اسکیل تخصصی انتخاب رشته کنکور ریاضی
 
 انتخاب رشته یکی از مهم‌ترین تصمیم‌های مسیر تحصیلی و شغلیه؛ اما خیلی وقت‌ها این تصمیم فقط بر اساس یک عدد گرفته می‌شه: **رتبه کنکور.**
 
@@ -26,117 +40,52 @@
 
 ---
 
-## Skill دقیقاً چیه؟
+### Skill دقیقاً چیه؟
 
-به زبان ساده، Skill یک **دستورالعمل و چارچوب آماده برای هوش مصنوعی**ه که بهش کمک می‌کنه یک کار مشخص رو منظم‌تر، عمیق‌تر و با روش مشخصی انجام بده.
-
-یعنی به‌جای اینکه هر بار از هوش مصنوعی یک سؤال کلی بپرسیم، یک چارچوب مشخص در اختیارش قرار می‌دیم تا برای تحلیل یک مسئله پیچیده، مراحل و عوامل مهم رو بهتر در نظر بگیره.
+به زبان ساده، Skill یک **دستورالعمل و چارچوب آماده برای هوش مصنوعی** (Claude, ChatGPT و سایر ابزارها) هست که بهش کمک می‌کنه کار انتخاب رشته رو منظم‌تر، عمیق‌تر و با روش مشخصی انجام بده.
 
 SUNJOB Math Major Skill v3.2 همین ایده رو برای **انتخاب رشته گروه ریاضی** به کار می‌گیره.
 
 ---
 
-## این Skill چه کمکی می‌کنه؟
+### این Skill چه کمکی می‌کنه؟
 
-این Skill به هوش مصنوعی کمک می‌کنه انتخاب رشته رو به‌صورت چندبُعدی بررسی کنه و در تحلیلش عوامل مختلفی رو کنار هم بذاره؛ از جمله:
-
-🧠 علایق و ویژگی‌های فردی  
-📚 توانایی‌ها و نقاط قوت  
-🎯 اهداف و علایق شغلی  
-🏙️ شهر و شرایط زندگی  
-🎓 ویژگی‌های خود رشته و مسیر تحصیل  
-💼 مسیرهای شغلی و آینده کاری  
-⚖️ مزایا، معایب و ریسک‌های هر انتخاب  
-🔎 مقایسه چند گزینه با یکدیگر  
-🧩 اطلاعاتی که برای تصمیم بهتر هنوز کم داریم
-
-در نتیجه، خروجی فقط یک لیست ساده از رشته‌ها نیست؛ بلکه یک **تحلیل ساختاریافته برای تصمیم‌گیری بهتر**ه.
+| بُعد تحلیل | توضیح |
+|---|---|
+| 🧠 علایق و ویژگی‌های فردی | شخصیت، سبک کار، ترجیحات |
+| 📚 توانایی‌ها و نقاط قوت | مهارت‌های تحلیلی، عملی، خلاقانه |
+| 🎯 اهداف و علایق شغلی | محیط کار، سبک زندگی، درآمد |
+| 🏙️ شهر و شرایط زندگی | مهاجرت، محدودیت‌های جغرافیایی |
+| 🎓 ویژگی‌های رشته و مسیر تحصیل | محتوای دروس، تخصص، ارشد |
+| 💼 مسیر شغلی و آینده کاری | بازار کار، کارآفرینی، ریسک |
+| ⚖️ مزایا، معایب و ریسک‌ها | مقایسه واقع‌بینانه |
+| 🧩 اطلاعاتی که کم داریم | شناسایی نقاط کور |
 
 ---
 
-## چرا این Skill ارزشمنده؟
+### برای کیه؟
 
-چون انتخاب رشته یک مسئله چندمعیاره‌ست.
-
-ممکنه دو نفر رتبه‌های مشابهی داشته باشن، اما با توجه به علاقه‌ها، توانایی‌ها، اهداف شغلی، شرایط زندگی و اولویت‌هاشون، بهترین انتخاب برای هر کدوم کاملاً متفاوت باشه.
-
-این Skill کمک می‌کنه هوش مصنوعی این تفاوت‌ها رو بهتر در نظر بگیره و قبل از رسیدن به یک پیشنهاد، عوامل مهم تصمیم رو کنار هم بررسی کنه.
-
-در واقع، به‌جای اینکه فقط دنبال یک «جواب» باشیم، از هوش مصنوعی برای **فکر کردن بهتر درباره انتخاب** استفاده می‌کنیم.
+- 👨‍🎓 **داوطلبان کنکور ریاضی** — هر رتبه‌ای که دارن
+- 📚 **دانش‌آموزان مردد** — بین چند رشته گیر کردن
+- 🧠 **کسانی که فقط با رتبه تصمیم نمی‌گیرن** — می‌خوان عوامل بیشتری رو ببینن
+- 🤖 **کاربران هوش مصنوعی** — Claude, ChatGPT, و سایر ابزارها
 
 ---
 
-## فرق استفاده معمولی از هوش مصنوعی با استفاده از Skill چیه؟
+### چطور استفاده کنیم؟
 
-مثلاً می‌تونی از هوش مصنوعی بپرسی:
-
-> «رتبه من ۸۰۰۰ شده، چه رشته‌ای برم؟»
-
-اما این سؤال اطلاعات زیادی درباره خودت و دلیل انتخابت به هوش مصنوعی نمی‌ده.
-
-با استفاده از Skill می‌تونی مسئله رو دقیق‌تر مطرح کنی:
-
-> «شرایط من رو بررسی کن، اگر اطلاعات مهمی کم هست ازم بپرس، گزینه‌های مناسب رو مقایسه کن، برای هر پیشنهاد دلیل بیار و بگو قبل از تصمیم نهایی چه چیزهایی رو باید بررسی کنم.»
-
-اینجوری هوش مصنوعی فقط یک جواب سریع نمی‌ده؛ بلکه وارد یک **فرآیند منظم‌تر برای تحلیل و تصمیم‌گیری** می‌شه.
-
----
-
-## این Skill برای کیه؟
-
-👨‍🎓 داوطلبان کنکور ریاضی
-
-📚 دانش‌آموزانی که بین چند رشته مردد هستن
-
-🧠 کسانی که می‌خوان انتخاب رشته‌شون فقط بر اساس رتبه نباشه
-
-🎯 افرادی که می‌خوان علاقه، توانایی و آینده شغلی رو هم در تصمیمشون وارد کنن
-
-🤖 کسانی که می‌خوان از هوش مصنوعی برای تحلیل و تصمیم‌گیری بهتر استفاده کنن
-
----
-
-## چطور ازش استفاده کنیم؟
-
-1. فایل Skill رو از این مخزن دریافت کن.
-2. فایل رو در ابزار هوش مصنوعی‌ای که از Skill، Project Instructions، Custom Instructions یا فایل‌های راهنما پشتیبانی می‌کنه قرار بده.
+1. فایل `SKILL.md` رو از این مخزن دریافت کن.
+2. فایل رو در ابزار هوش مصنوعی‌ای که پشتیبانی می‌کنه قرار بده:
+   - **Claude** → اضافه کردن به عنوان Claude Skill
+   - **ChatGPT** → استفاده از `chatgpt/CHATGPT-MASTER-PROMPT.txt`
+   - **سایر ابزارها** → System Instructions / Knowledge Files / Uploaded Files
 3. اطلاعات خودت رو به هوش مصنوعی بده.
 4. ازش بخواه با استفاده از این Skill شرایطت رو تحلیل کنه.
-5. اگر اطلاعات مهمی کم بود، اجازه بده ازت سؤال بپرسه.
-6. بعد از تحلیل، گزینه‌های مختلف رو با هم مقایسه کن.
-
-هر ابزار هوش مصنوعی ممکنه روش متفاوتی برای اضافه کردن Skill داشته باشه؛ بنابراین نحوه قرار دادن فایل در Claude یا ابزارهای دیگر رو مطابق سازوکار همان ابزار انجام بده.
+5. نمونه پرامپت‌ها رو ببین: [`examples/sample-prompts.md`](examples/sample-prompts.md)
 
 ---
 
-## استفاده در Claude
-
-اگر از Claude و قابلیت‌های مربوط به Skill یا دستورالعمل‌های پروژه استفاده می‌کنی، فایل Skill رو مطابق ساختار و روش استفاده‌ای که Claude پشتیبانی می‌کنه به پروژه اضافه کن.
-
-بعد می‌تونی اطلاعات خودت رو وارد کنی و از Claude بخوای تحلیل انتخاب رشته رو با استفاده از SUNJOB Math Major Skill انجام بده.
-
----
-
-## استفاده در سایر ابزارهای هوش مصنوعی
-
-این Skill برای استفاده در جریان‌های کاری هوش مصنوعی طراحی شده و بسته به ابزار مورد استفاده می‌تونه از روش‌هایی مثل:
-
-- Skills
-- Project Instructions
-- Custom Instructions
-- System Instructions
-- Knowledge Files
-- Uploaded Files
-
-استفاده بشه.
-
-روش دقیق استفاده به ابزار مورد نظر بستگی داره.
-
----
-
-## یک مثال ساده برای شروع
-
-این متن رو می‌تونی بعد از اضافه کردن Skill به هوش مصنوعی بدی:
+### نمونه پرامپت سریع
 
 ```text
 من داوطلب کنکور ریاضی هستم.
@@ -148,12 +97,9 @@ SUNJOB Math Major Skill v3.2 همین ایده رو برای **انتخاب رش
 
 برای هر گزینه:
 - دلیل پیشنهاد
-- مزایا
-- معایب
+- مزایا و معایب
 - مسیر شغلی
 - ریسک‌های احتمالی
-
-رو توضیح بده.
 
 اطلاعات من:
 رتبه:
@@ -161,17 +107,23 @@ SUNJOB Math Major Skill v3.2 همین ایده رو برای **انتخاب رش
 علایق:
 توانایی‌ها:
 هدف شغلی:
-اولویت‌های من:
-محدودیت‌ها:
 ```
-
-برای نمونه‌های بیشتر ببینید: [`examples/sample-prompts.md`](examples/sample-prompts.md)
 
 ---
 
-# English
+## 🇬🇧 English
 
-## What's in This Repository?
+### What Is This?
+
+A **Claude Skill / ChatGPT Prompt** that turns any LLM into a structured, multi-dimensional **university major selection advisor** for Iranian mathematics-track students (کنکور ریاضی).
+
+Instead of asking "what can I get with rank X?", this skill helps students explore:
+- **Self-discovery**: interests, work style, values, personality
+- **Career awareness**: real job paths, environments, growth potential
+- **Decision framework**: structured comparison of 3–5 plausible directions
+- **Bias detection**: prestige, family pressure, rank anxiety, social proof
+
+### Repository Structure
 
 | File / Directory | Description |
 |---|---|
@@ -182,23 +134,23 @@ SUNJOB Math Major Skill v3.2 همین ایده رو برای **انتخاب رش
 | `evaluations/` | Evaluation rubric and launch checklist |
 | `references/` | Internal design docs (decision framework, research protocol, etc.) |
 
-## What's New in v3.2
+### What's New in v3.2
 
-- **Opening discipline**: Guardrails to prevent the introduction from repeating in multi-turn conversations.
-- **Multi-turn continuity**: Natural conversation flow across turns without restarting.
-- **Recommendation confidence**: Explicit confidence calibration (strong / provisional / insufficient).
-- **Psychometric interpretation**: Stricter discipline treating assessments as evidence, not verdicts.
-- **Minimum-variable protocol**: For rank questions, asks only variables that materially change the answer.
+- **Opening discipline**: Guardrails to prevent the introduction from repeating in multi-turn conversations
+- **Multi-turn continuity**: Natural conversation flow across turns without restarting
+- **Recommendation confidence**: Explicit confidence calibration (strong / provisional / insufficient)
+- **Psychometric interpretation**: Stricter discipline treating assessments as evidence, not verdicts
+- **Minimum-variable protocol**: For rank questions, asks only variables that materially change the answer
 
-## Claude Installation
+### Installation
 
-Upload the entire repository as a Claude Skill. Ensure `SKILL.md` is at the root.
+**Claude**: Upload the entire repository as a Claude Skill. Ensure `SKILL.md` is at the root.
 
-## ChatGPT Use
+**ChatGPT**: Copy the content of `chatgpt/CHATGPT-MASTER-PROMPT.txt` into a new chat.
 
-ChatGPT does not install Claude-style Skills for ordinary chats. Use `chatgpt/CHATGPT-MASTER-PROMPT.txt` as a copy/paste prompt in a new chat.
+**Other AI tools**: Load `SKILL.md` as System Instructions, Knowledge File, or equivalent.
 
-## Links
+### Links
 
 - **SUNJOB Website**: [sunjob.ir](https://sunjob.ir)
 - **Telegram**: [@Sunjob1](https://t.me/Sunjob1)
@@ -211,6 +163,21 @@ ChatGPT does not install Claude-style Skills for ordinary chats. Use `chatgpt/CH
 MIT — see [LICENSE](LICENSE).
 
 ---
+
+<!--
+  GitHub search indexing tags — انتخاب رشته کنکور ریاضی با هوش مصنوعی
+  مشاوره انتخاب رشته | تحلیل رشته دانشگاهی | اسکیل کلود
+  انتخاب رشته با هوش مصنوعی | konkur major selection AI
+  دانشگاه صنعتی شریف | دانشگاه تهران | دانشگاه امیرکبیر
+  مهندسی کامپیوتر | مهندسی برق | مهندسی مکانیک | ریاضی محض
+  کارشناسی ارشد | دکتری | بازار کار | مسیر شغلی
+  Holland test | MBTI | Big Five | test هالند
+  سازمان سنجش | انتخاب رشته 1404 | کنکور 1404
+  Claude skill Persian | ChatGPT prompt Persian
+  AI education Iran | university admission Iran
+  career counseling AI | major selection assistant
+  prompt engineering Persian | فارسی
+-->
 
 <p align="center">
   <strong>SUNJOB Academy</strong> — کشف • تجربه • انتخاب<br/>
