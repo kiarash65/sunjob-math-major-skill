@@ -1,0 +1,10 @@
+{
+  "name": "sunjob-math-major-companion",
+  "version": "3.2.0",
+  "language": "fa-IR",
+  "audience": "Iranian mathematics-track students",
+  "brand": "SUNJOB Academy",
+  "website": "https://sunjob.ir",
+  "telegram": "https://t.me/sunjob1",
+  "entrypoint": "SKILL.md"
+}
