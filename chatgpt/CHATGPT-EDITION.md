@@ -1,15 +1,27 @@
 # CHATGPT Edition
 
-This folder contains a ChatGPT-ready version of the SUNJOB Math Major Companion.
+این پوشه نسخه آماده استفاده برای ChatGPT را نگه می‌دارد.
 
-## How to use
-1. Open a new ChatGPT conversation.
-2. Copy the contents of `CHATGPT-MASTER-PROMPT.txt` and paste it as the first message.
-3. Optionally upload reference files from the `references/` folder for richer context.
-4. Begin chatting as the student.
+## سریع‌ترین روش
 
-## Differences from Claude Skill
-The ChatGPT version is a single-prompt adaptation. Some features that rely on Claude's skill architecture (file references, structured context) are approximated by including key instructions inline.
+1. فایل `CHATGPT-MASTER-PROMPT.txt` را باز کن.
+2. کل محتوای آن را کپی کن.
+3. یک گفت‌وگوی جدید در ChatGPT باز کن.
+4. متن را به‌عنوان پیام اول وارد کن.
+5. بعد اطلاعات خودت را بده و گفتگو را ادامه بده.
 
-## Version
-Aligned with SUNJOB Math Major Companion v3.2.
+## استفاده به‌عنوان Skill در ChatGPT
+
+ChatGPT در محیط‌های واجد شرایط از Skills پشتیبانی می‌کند. اگر قابلیت Skills برای حساب یا workspace تو فعال است، می‌توانی بسته Skill را نصب/آپلود کنی و اجازه بده ChatGPT در موقعیت‌های مرتبط از آن استفاده کند.
+
+اگر Skills برای حساب یا محیط تو در دسترس نیست، از `CHATGPT-MASTER-PROMPT.txt` استفاده کن؛ این فایل یک نسخه قابل‌حمل از منطق همین Skill است.
+
+## چرا نسخه جداگانه وجود دارد؟
+
+`SKILL.md` منبع اصلی و canonical پروژه است. نسخه ChatGPT برای سناریویی طراحی شده که کاربر می‌خواهد همان روش تصمیم‌گیری را به شکل یک prompt واحد و قابل‌حمل در اختیار ChatGPT قرار دهد.
+
+## نکته برای نتیجه بهتر
+
+اطلاعات قبلی گفتگو را نگه دار و هر نتیجه تست SUNJOB را همراه با زمینه‌ای که قبلاً درباره خودت گفته‌ای ارائه کن تا تحلیل مرحله‌به‌مرحله و پیوسته بماند.
+
+Version: **3.2.0**
