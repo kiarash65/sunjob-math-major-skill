@@ -8,35 +8,57 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-
-
-def fail(message: str) -> None:
-    print(f"ERROR: {message}")
+SEMVER = re.compile(r"^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)$")
 
 
 def main() -> int:
     errors: list[str] = []
 
-    skill = ROOT / "SKILL.md"
+    required_files = [
+        "SKILL.md",
+        "README.md",
+        "manifest.json",
+        "LICENSE",
+        "SECURITY.md",
+        "CONTRIBUTING.md",
+        "DECISION-SAFETY.md",
+        "AGENTS.md",
+        ".github/workflows/validate.yml",
+        "evaluations/README.md",
+        "evaluations/benchmark.md",
+        "evaluations/cases.md",
+        "evaluations/RELEASE-GATE.md",
+    ]
+
+    for relative in required_files:
+        path = ROOT / relative
+        if not path.is_file() or path.stat().st_size == 0:
+            errors.append(f"missing or empty required file: {relative}")
+
+    manifest_data: dict[str, object] = {}
     manifest = ROOT / "manifest.json"
-    readme = ROOT / "README.md"
-
-    for path in (skill, manifest, readme):
-        if not path.exists():
-            errors.append(f"missing required file: {path.relative_to(ROOT)}")
-
-    if manifest.exists():
+    if manifest.is_file():
         try:
-            data = json.loads(manifest.read_text(encoding="utf-8"))
+            manifest_data = json.loads(manifest.read_text(encoding="utf-8"))
         except json.JSONDecodeError as exc:
             errors.append(f"manifest.json is invalid JSON: {exc}")
         else:
-            if data.get("version") != "3.2.0":
-                errors.append(f"manifest version is {data.get('version')!r}, expected '3.2.0'")
-            if data.get("entrypoint") != "SKILL.md":
+            version = manifest_data.get("version")
+            if not isinstance(version, str) or not SEMVER.fullmatch(version):
+                errors.append(f"manifest version is not valid semantic versioning: {version!r}")
+            if manifest_data.get("entrypoint") != "SKILL.md":
                 errors.append("manifest entrypoint must be SKILL.md")
+            if manifest_data.get("license") != "MIT":
+                errors.append("manifest license must be MIT")
 
-    if skill.exists():
+            chatgpt_path = manifest_data.get("chatgpt_edition")
+            if isinstance(chatgpt_path, str):
+                target = ROOT / chatgpt_path
+                if not target.is_file() or target.stat().st_size == 0:
+                    errors.append(f"manifest chatgpt_edition does not point to a non-empty file: {chatgpt_path}")
+
+    skill = ROOT / "SKILL.md"
+    if skill.is_file():
         text = skill.read_text(encoding="utf-8")
         required_phrases = [
             "SELF",
@@ -51,15 +73,14 @@ def main() -> int:
             if phrase not in text:
                 errors.append(f"SKILL.md missing required section/phrase: {phrase}")
 
-    if readme.exists():
+    readme = ROOT / "README.md"
+    if readme.is_file():
         text = readme.read_text(encoding="utf-8")
         if "Production Ready" in text:
-            errors.append("README still contains the unsupported 'Production Ready' claim")
-        for link in re.findall(r"https?://[^)\\s]+", text):
-            if "github.com/kiarash65/sunjob-math-major-skill" not in link and not link.startswith("https://sunjob.ir") and not link.startswith("https://t.me/sunjob1"):
-                # External links are allowed; this validator only flags malformed punctuation.
-                if link.endswith((".", ",", ";")):
-                    errors.append(f"suspicious trailing punctuation in URL: {link}")
+            errors.append("README contains the unsupported 'Production Ready' claim")
+        for link in re.findall(r"https?://[^)\s]+", text):
+            if link.endswith((".", ",", ";")):
+                errors.append(f"suspicious trailing punctuation in URL: {link}")
 
     secret_patterns = [
         re.compile(r"sk-[A-Za-z0-9_-]{20,}"),
@@ -67,9 +88,9 @@ def main() -> int:
         re.compile(r"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----"),
         re.compile(r"SUPABASE_SERVICE_ROLE", re.I),
     ]
-    excluded = {".git"}
+
     for path in ROOT.rglob("*"):
-        if not path.is_file() or any(part in excluded for part in path.parts):
+        if not path.is_file() or ".git" in path.parts:
             continue
         if path.stat().st_size > 1_000_000:
             continue
@@ -84,10 +105,10 @@ def main() -> int:
 
     if errors:
         for error in errors:
-            fail(error)
+            print(f"ERROR: {error}")
         return 1
 
-    print("OK: repository structure and basic safety checks passed.")
+    print(f"OK: repository structure and basic safety checks passed (version {manifest_data.get('version', 'unknown')}).")
     return 0
 
 
